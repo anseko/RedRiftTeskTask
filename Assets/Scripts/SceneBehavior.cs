@@ -14,10 +14,8 @@ public class SceneBehavior : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log(Input.GetKeyDown(KeyCode.Escape));
-        if (Input.GetKeyDown(KeyCode.Escape)) //go back into menu GetKeyDown(KeyCode.Escape)
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
-            Debug.Log("Here");
             SceneManager.LoadSceneAsync(0, LoadSceneMode.Single);
         }
     }

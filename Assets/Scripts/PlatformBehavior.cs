@@ -17,4 +17,5 @@ public class PlatformBehavior : MonoBehaviour
         renderer.color = Random.ColorHSV();
         GameState.Counter += 1;
     }
+
 }
